@@ -2,25 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fae87a08-7b58-41b0-bf70-7dbe44ee6d67" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/strategy_pattern/DependetClasses/CasualFly.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/strategy_pattern/DependetClasses/FakeQuack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/strategy_pattern/DependetClasses/Fakedisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/strategy_pattern/DependetClasses/JetFlying.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/strategy_pattern/DependetClasses/NoFly.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/strategy_pattern/DependetClasses/Noeat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/strategy_pattern/DependetClasses/RealDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/strategy_pattern/DependetClasses/simpleQuack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/strategy_pattern/Father/Duck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/strategy_pattern/Interfaces/IDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/strategy_pattern/Interfaces/IFly.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/strategy_pattern/Interfaces/IQuack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/strategy_pattern/Interfaces/Ieat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/strategy_pattern/children/CityDuck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/strategy_pattern/children/CloudDuck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/strategy_pattern/children/RubberDuck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/strategy_pattern/children/WildDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/ObserverPattern/observable/IObservable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/ObserverPattern/observable/WeatherStation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/ObserverPattern/observers/IObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/ObserverPattern/observers/PhoneDisplay.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
     </list>
@@ -90,46 +75,60 @@
       <option name="presentableId" value="Default" />
       <updated>1589995032576</updated>
       <workItem from="1589995038208" duration="384000" />
-      <workItem from="1590068502038" duration="8731000" />
+      <workItem from="1590068502038" duration="9021000" />
+      <workItem from="1596009042451" duration="1952000" />
+      <workItem from="1596013200931" duration="602000" />
     </task>
+    <task id="LOCAL-00001" summary="1.strategy pattern">
+      <created>1590079779278</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1590079779278</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1.strategy pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.strategy pattern" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="156" key="#com.intellij.ide.util.MemberChooser" timestamp="1590077053261">
+    <state x="574" y="156" key="#com.intellij.ide.util.MemberChooser" timestamp="1596013416962">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="574" y="156" key="#com.intellij.ide.util.MemberChooser/0.30.1536.834@0.30.1536.834" timestamp="1590077053261" />
+    <state x="574" y="156" key="#com.intellij.ide.util.MemberChooser/0.30.1536.834@0.30.1536.834" timestamp="1596013416962" />
     <state x="390" y="40" key="CommitChangelistDialog2" timestamp="1590079776898">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="390" y="40" key="CommitChangelistDialog2/0.30.1536.834@0.30.1536.834" timestamp="1590079776898" />
-    <state width="1493" height="643" key="GridCell.Tab.0.bottom" timestamp="1590079737989">
+    <state width="1493" height="643" key="GridCell.Tab.0.bottom" timestamp="1596013817712">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="643" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1590079737989" />
-    <state width="1493" height="643" key="GridCell.Tab.0.center" timestamp="1590079737988">
+    <state width="1493" height="643" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1596013817712" />
+    <state width="1493" height="643" key="GridCell.Tab.0.center" timestamp="1596013817710">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="643" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1590079737988" />
-    <state width="1493" height="643" key="GridCell.Tab.0.left" timestamp="1590079737988">
+    <state width="1493" height="643" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1596013817710" />
+    <state width="1493" height="643" key="GridCell.Tab.0.left" timestamp="1596013817710">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="643" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1590079737988" />
-    <state width="1493" height="643" key="GridCell.Tab.0.right" timestamp="1590079737989">
+    <state width="1493" height="643" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1596013817710" />
+    <state width="1493" height="643" key="GridCell.Tab.0.right" timestamp="1596013817712">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="643" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1590079737989" />
-    <state x="460" y="271" key="com.intellij.ide.util.TipDialog" timestamp="1590068507551">
+    <state width="1493" height="643" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1596013817712" />
+    <state x="460" y="271" key="com.intellij.ide.util.TipDialog" timestamp="1596013199942">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="460" y="271" key="com.intellij.ide.util.TipDialog/0.30.1536.834@0.30.1536.834" timestamp="1590068507551" />
-    <state x="573" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590079743474">
+    <state x="460" y="271" key="com.intellij.ide.util.TipDialog/0.30.1536.834@0.30.1536.834" timestamp="1596013199942" />
+    <state x="573" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596013843974">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="573" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.30.1536.834@0.30.1536.834" timestamp="1590079743474" />
+    <state x="573" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.30.1536.834@0.30.1536.834" timestamp="1596013843974" />
     <state x="247" y="147" width="1129" height="580" key="dock-window-1" timestamp="1590074392824">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
