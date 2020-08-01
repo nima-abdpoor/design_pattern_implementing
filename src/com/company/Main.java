@@ -1,5 +1,9 @@
 package com.company;
 
+import com.company.ObserverPattern.decoratorpattern.Beverage.Beverage;
+import com.company.ObserverPattern.decoratorpattern.Beverage.Espresso;
+import com.company.ObserverPattern.decoratorpattern.Beverage.Tea;
+import com.company.ObserverPattern.decoratorpattern.decorator.Caramel;
 import com.company.ObserverPattern.observable.WeatherStation;
 import com.company.ObserverPattern.observers.PhoneDisplay;
 import com.company.strategy_pattern.Father.Duck;
@@ -14,7 +18,14 @@ public class Main {
 
 
         //strategypattern();
-        observerPattern();
+        //observerPattern();
+        decoratorPattern();
+    }
+
+    private static void decoratorPattern() {
+        Espresso espresso = new Espresso();
+        Beverage beverage = new Caramel(espresso);
+        System.out.println(beverage.cost());
     }
 
     private static void observerPattern() {
