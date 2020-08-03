@@ -1,6 +1,6 @@
-package com.company.ObserverPattern.decoratorpattern.decorator;
+package com.company.decoratorpattern.decorator;
 
-import com.company.ObserverPattern.decoratorpattern.Beverage.Beverage;
+import com.company.decoratorpattern.Beverage.Beverage;
 
 public class Caramel extends AddOnDecorator {
     Beverage beverage;

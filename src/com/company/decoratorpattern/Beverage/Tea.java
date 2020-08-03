@@ -1,4 +1,4 @@
-package com.company.ObserverPattern.decoratorpattern.Beverage;
+package com.company.decoratorpattern.Beverage;
 
 public class Tea extends Beverage {
     @Override

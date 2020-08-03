@@ -1,9 +1,12 @@
-package com.company;
+package com.company.main;
 
-import com.company.ObserverPattern.decoratorpattern.Beverage.Beverage;
-import com.company.ObserverPattern.decoratorpattern.Beverage.Espresso;
-import com.company.ObserverPattern.decoratorpattern.Beverage.Tea;
-import com.company.ObserverPattern.decoratorpattern.decorator.Caramel;
+import com.company.FactoryMethodPattern.Animal.Animal;
+import com.company.FactoryMethodPattern.Factory.AnimalFactory;
+import com.company.FactoryMethodPattern.Factory.BalanceAnimalFactory;
+import com.company.FactoryMethodPattern.Factory.RandomAnimalFactory;
+import com.company.decoratorpattern.Beverage.Beverage;
+import com.company.decoratorpattern.Beverage.Espresso;
+import com.company.decoratorpattern.decorator.Caramel;
 import com.company.ObserverPattern.observable.WeatherStation;
 import com.company.ObserverPattern.observers.PhoneDisplay;
 import com.company.strategy_pattern.Father.Duck;
@@ -12,14 +15,27 @@ import com.company.strategy_pattern.children.CloudDuck;
 import com.company.strategy_pattern.children.RubberDuck;
 import com.company.strategy_pattern.children.WildDuck;
 
+import java.util.Random;
+
 public class Main {
 
     public static void main(String[] args) {
-
-
+        //FactoryMethodPattern();
         //strategypattern();
         //observerPattern();
-        decoratorPattern();
+        //decoratorPattern();
+    }
+
+    private static void FactoryMethodPattern() {
+        RandomAnimalFactory randomAnimalFactory = new RandomAnimalFactory();
+        BalanceAnimalFactory balanceAnimalFactory = new BalanceAnimalFactory();
+        AnimalFactory animalFactory;
+        for (int i=0;i<10;++i){
+            animalFactory = randomAnimalFactory;
+            System.out.println(animalFactory.CreateAnimal().GetSound());
+            animalFactory = balanceAnimalFactory;
+            System.out.println(animalFactory.CreateAnimal().GetSound());
+        }
     }
 
     private static void decoratorPattern() {

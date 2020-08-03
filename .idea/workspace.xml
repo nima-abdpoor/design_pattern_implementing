@@ -2,14 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fae87a08-7b58-41b0-bf70-7dbe44ee6d67" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/ObserverPattern/decoratorpattern/Beverage/Beverage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/ObserverPattern/decoratorpattern/Beverage/Espresso.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/ObserverPattern/decoratorpattern/Beverage/Tea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/ObserverPattern/decoratorpattern/decorator/AddOnDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/ObserverPattern/decoratorpattern/decorator/Caramel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/FactoryMethodPattern/Animal/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/FactoryMethodPattern/Animal/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/FactoryMethodPattern/Animal/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/FactoryMethodPattern/Animal/Duck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/FactoryMethodPattern/Factory/AnimalFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/FactoryMethodPattern/Factory/BalanceAnimalFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/FactoryMethodPattern/Factory/RandomAnimalFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/design pattern/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/design pattern/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design pattern/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/ObserverPattern/decoratorpattern/Beverage/Beverage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/decoratorpattern/Beverage/Beverage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/ObserverPattern/decoratorpattern/Beverage/Espresso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/decoratorpattern/Beverage/Espresso.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/ObserverPattern/decoratorpattern/Beverage/Tea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/decoratorpattern/Beverage/Tea.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/ObserverPattern/decoratorpattern/decorator/AddOnDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/decoratorpattern/decorator/AddOnDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/ObserverPattern/decoratorpattern/decorator/Caramel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/decoratorpattern/decorator/Caramel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +58,7 @@
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.company.main.Main" />
       <module name="design pattern" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
@@ -80,7 +87,8 @@
       <workItem from="1590068502038" duration="9021000" />
       <workItem from="1596009042451" duration="1952000" />
       <workItem from="1596013200931" duration="1509000" />
-      <workItem from="1596270310006" duration="2874000" />
+      <workItem from="1596270310006" duration="2995000" />
+      <workItem from="1596462714917" duration="2478000" />
     </task>
     <task id="LOCAL-00001" summary="1.strategy pattern">
       <created>1590079779278</created>
@@ -96,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596013900346</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="3. decorator pattern">
+      <created>1596274355215</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1596274355215</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,41 +120,42 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1.strategy pattern" />
     <MESSAGE value="2.observer pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="2.observer pattern" />
+    <MESSAGE value="3. decorator pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="3. decorator pattern" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="156" key="#com.intellij.ide.util.MemberChooser" timestamp="1596271444713">
+    <state x="574" y="156" key="#com.intellij.ide.util.MemberChooser" timestamp="1596466125434">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="574" y="156" key="#com.intellij.ide.util.MemberChooser/0.30.1536.834@0.30.1536.834" timestamp="1596271444713" />
-    <state x="390" y="40" key="CommitChangelistDialog2" timestamp="1596013894808">
+    <state x="574" y="156" key="#com.intellij.ide.util.MemberChooser/0.30.1536.834@0.30.1536.834" timestamp="1596466125434" />
+    <state x="390" y="40" key="CommitChangelistDialog2" timestamp="1596274351069">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="390" y="40" key="CommitChangelistDialog2/0.30.1536.834@0.30.1536.834" timestamp="1596013894808" />
-    <state width="1493" height="643" key="GridCell.Tab.0.bottom" timestamp="1596274273906">
+    <state x="390" y="40" key="CommitChangelistDialog2/0.30.1536.834@0.30.1536.834" timestamp="1596274351069" />
+    <state width="1493" height="274" key="GridCell.Tab.0.bottom" timestamp="1596467467778">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="643" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1596274273906" />
-    <state width="1493" height="643" key="GridCell.Tab.0.center" timestamp="1596274273905">
+    <state width="1493" height="274" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1596467467778" />
+    <state width="1493" height="274" key="GridCell.Tab.0.center" timestamp="1596467467777">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="643" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1596274273905" />
-    <state width="1493" height="643" key="GridCell.Tab.0.left" timestamp="1596274273905">
+    <state width="1493" height="274" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1596467467777" />
+    <state width="1493" height="274" key="GridCell.Tab.0.left" timestamp="1596467467777">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="643" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1596274273905" />
-    <state width="1493" height="643" key="GridCell.Tab.0.right" timestamp="1596274273906">
+    <state width="1493" height="274" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1596467467777" />
+    <state width="1493" height="274" key="GridCell.Tab.0.right" timestamp="1596467467777">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="643" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1596274273906" />
+    <state width="1493" height="274" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1596467467777" />
     <state x="460" y="271" key="com.intellij.ide.util.TipDialog" timestamp="1596270338945">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="460" y="271" key="com.intellij.ide.util.TipDialog/0.30.1536.834@0.30.1536.834" timestamp="1596270338945" />
-    <state x="573" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596274308111">
+    <state x="573" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596467484363">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="573" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.30.1536.834@0.30.1536.834" timestamp="1596274308111" />
+    <state x="573" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.30.1536.834@0.30.1536.834" timestamp="1596467484363" />
     <state x="247" y="147" width="1129" height="580" key="dock-window-1" timestamp="1590074392824">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
