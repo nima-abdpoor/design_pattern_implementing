@@ -1,9 +1,10 @@
 package com.company.main;
 
-import com.company.FactoryMethodPattern.Animal.Animal;
 import com.company.FactoryMethodPattern.Factory.AnimalFactory;
 import com.company.FactoryMethodPattern.Factory.BalanceAnimalFactory;
 import com.company.FactoryMethodPattern.Factory.RandomAnimalFactory;
+import com.company.abstractFactoryPattern.ThemeFactory.DarkTheme;
+import com.company.abstractFactoryPattern.ThemeFactory.LightTheme;
 import com.company.decoratorpattern.Beverage.Beverage;
 import com.company.decoratorpattern.Beverage.Espresso;
 import com.company.decoratorpattern.decorator.Caramel;
@@ -15,15 +16,25 @@ import com.company.strategy_pattern.children.CloudDuck;
 import com.company.strategy_pattern.children.RubberDuck;
 import com.company.strategy_pattern.children.WildDuck;
 
-import java.util.Random;
-
 public class Main {
 
     public static void main(String[] args) {
+        AbstractFactoryPattern();
         //FactoryMethodPattern();
         //strategypattern();
         //observerPattern();
         //decoratorPattern();
+    }
+
+    private static void AbstractFactoryPattern() {
+        DarkTheme darkTheme=new DarkTheme();
+        System.out.println("DARK:");
+        System.out.println(darkTheme.TEXT_COLOR().getColor());
+        System.out.println(darkTheme.BACKGROUND_COLOR().getColor());
+        LightTheme lightTheme=new LightTheme();
+        System.out.println("LIGHT:");
+        System.out.println(lightTheme.BACKGROUND_COLOR().getColor());
+        System.out.println(lightTheme.TEXT_COLOR().getColor());
     }
 
     private static void FactoryMethodPattern() {
