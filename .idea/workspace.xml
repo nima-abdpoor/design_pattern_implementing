@@ -2,16 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fae87a08-7b58-41b0-bf70-7dbe44ee6d67" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/abstractFactoryPattern/Theme/Background/BackgroundColor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/abstractFactoryPattern/Theme/Background/BlackBackground.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/abstractFactoryPattern/Theme/Background/WhiteBackground.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/abstractFactoryPattern/Theme/Text/BlackText.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/abstractFactoryPattern/Theme/Text/TextColor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/abstractFactoryPattern/ThemeFactory/DarkTheme.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/abstractFactoryPattern/ThemeFactory/LightTheme.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/abstractFactoryPattern/ThemeFactory/ThemeMode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/strategy_pattern/DependetClasses/CasualFly.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/strategy_pattern/DependetClasses/FakeQuack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/strategy_pattern/DependetClasses/Fakedisplay.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/strategy_pattern/DependetClasses/JetFlying.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/strategy_pattern/DependetClasses/NoFly.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/strategy_pattern/DependetClasses/Noeat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/strategy_pattern/DependetClasses/RealDisplay.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/strategy_pattern/DependetClasses/simpleQuack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/strategy_pattern/Father/Duck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/strategy_pattern/Father/Duck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/strategy_pattern/children/CityDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/strategy_pattern/children/CityDuck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/strategy_pattern/children/CloudDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/strategy_pattern/children/CloudDuck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/strategy_pattern/children/RubberDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/strategy_pattern/children/RubberDuck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/strategy_pattern/children/WildDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/strategy_pattern/children/WildDuck.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +89,8 @@
       <workItem from="1596013200931" duration="1509000" />
       <workItem from="1596270310006" duration="2995000" />
       <workItem from="1596462714917" duration="3864000" />
-      <workItem from="1596829463051" duration="2009000" />
+      <workItem from="1596829463051" duration="2209000" />
+      <workItem from="1597125501884" duration="2897000" />
     </task>
     <task id="LOCAL-00001" summary="1.strategy pattern">
       <created>1590079779278</created>
@@ -132,42 +138,42 @@
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="361" y="105" key="#Notifications/0.30.1536.834@0.30.1536.834" timestamp="1596831565554" />
-    <state x="574" y="156" key="#com.intellij.ide.util.MemberChooser" timestamp="1596830724128">
+    <state x="574" y="156" key="#com.intellij.ide.util.MemberChooser" timestamp="1597127296882">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="574" y="156" key="#com.intellij.ide.util.MemberChooser/0.30.1536.834@0.30.1536.834" timestamp="1596830724128" />
+    <state x="574" y="156" key="#com.intellij.ide.util.MemberChooser/0.30.1536.834@0.30.1536.834" timestamp="1597127296882" />
     <state x="390" y="40" key="CommitChangelistDialog2" timestamp="1596467542622">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="390" y="40" key="CommitChangelistDialog2/0.30.1536.834@0.30.1536.834" timestamp="1596467542622" />
-    <state width="1493" height="274" key="GridCell.Tab.0.bottom" timestamp="1596831527435">
+    <state width="1493" height="274" key="GridCell.Tab.0.bottom" timestamp="1597128472978">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="274" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1596831527435" />
-    <state width="1493" height="274" key="GridCell.Tab.0.center" timestamp="1596831527435">
+    <state width="1493" height="274" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1597128472978" />
+    <state width="1493" height="274" key="GridCell.Tab.0.center" timestamp="1597128472978">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="274" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1596831527435" />
-    <state width="1493" height="274" key="GridCell.Tab.0.left" timestamp="1596831527435">
+    <state width="1493" height="274" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1597128472978" />
+    <state width="1493" height="274" key="GridCell.Tab.0.left" timestamp="1597128472978">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="274" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1596831527435" />
-    <state width="1493" height="274" key="GridCell.Tab.0.right" timestamp="1596831527435">
+    <state width="1493" height="274" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1597128472978" />
+    <state width="1493" height="274" key="GridCell.Tab.0.right" timestamp="1597128472978">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="274" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1596831527435" />
+    <state width="1493" height="274" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1597128472978" />
     <state x="361" y="180" key="Vcs.Push.Dialog.v2" timestamp="1596467604564">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="361" y="180" key="Vcs.Push.Dialog.v2/0.30.1536.834@0.30.1536.834" timestamp="1596467604564" />
-    <state x="460" y="271" key="com.intellij.ide.util.TipDialog" timestamp="1596829461880">
+    <state x="460" y="271" key="com.intellij.ide.util.TipDialog" timestamp="1597125502310">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="460" y="271" key="com.intellij.ide.util.TipDialog/0.30.1536.834@0.30.1536.834" timestamp="1596829461880" />
-    <state x="573" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596831592997">
+    <state x="460" y="271" key="com.intellij.ide.util.TipDialog/0.30.1536.834@0.30.1536.834" timestamp="1597125502310" />
+    <state x="573" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597128484365">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="573" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.30.1536.834@0.30.1536.834" timestamp="1596831592997" />
+    <state x="573" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.30.1536.834@0.30.1536.834" timestamp="1597128484365" />
     <state x="247" y="147" width="1129" height="580" key="dock-window-1" timestamp="1590074392824">
       <screen x="0" y="30" width="1536" height="834" />
     </state>

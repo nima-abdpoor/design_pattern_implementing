@@ -1,33 +1,16 @@
 package com.company.strategy_pattern.children;
 
-import com.company.strategy_pattern.DependetClasses.FakeQuack;
-import com.company.strategy_pattern.DependetClasses.Fakedisplay;
-import com.company.strategy_pattern.DependetClasses.NoFly;
-import com.company.strategy_pattern.DependetClasses.Noeat;
-import com.company.strategy_pattern.Father.Duck;
+import com.company.strategy_pattern.Interfaces.IQuack;
+import com.company.strategy_pattern.Interfaces.Ieat;
 
-public class RubberDuck extends Duck {
+public class RubberDuck implements Ieat, IQuack {
     @Override
     public void eat() {
-        Noeat noeat=new Noeat();
-        noeat.eat();
+        System.out.println("yammmmmmmmmm...");
     }
 
     @Override
     public void quack() {
-        FakeQuack fakeQuack=new FakeQuack();
-        fakeQuack.quack();
-    }
-
-    @Override
-    public void display() {
-        Fakedisplay fakedisplay=new Fakedisplay();
-        fakedisplay.display();
-    }
-
-    @Override
-    public void fly() {
-        NoFly noFly=new NoFly();
-        noFly.fly();
+        System.out.println("quack");
     }
 }

@@ -19,7 +19,7 @@ import com.company.strategy_pattern.children.WildDuck;
 public class Main {
 
     public static void main(String[] args) {
-        AbstractFactoryPattern();
+        //AbstractFactoryPattern();
         //FactoryMethodPattern();
         //strategypattern();
         //observerPattern();
@@ -70,18 +70,8 @@ public class Main {
     }
 
     public static void strategypattern() {
-        WildDuck wildDuck = new WildDuck();
         CityDuck cityDuck = new CityDuck();
-        RubberDuck rubberDuck = new RubberDuck();
-        CloudDuck cloudDuck = new CloudDuck();
-        Duck[] ducks = {wildDuck, cityDuck, rubberDuck, cloudDuck};
-        for (Duck duck : ducks) {
-            System.out.println(duck.getClass().descriptorString());
-            duck.display();
-            duck.eat();
-            duck.quack();
-            duck.fly();
-            System.out.println();
-        }
+        Duck duck = new Duck(cityDuck,cityDuck,cityDuck,cityDuck);
+        duck.fly();
     }
 }

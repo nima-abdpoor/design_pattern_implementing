@@ -1,37 +1,28 @@
 package com.company.strategy_pattern.children;
-
-import com.company.strategy_pattern.DependetClasses.CasualFly;
-import com.company.strategy_pattern.DependetClasses.NoFly;
-import com.company.strategy_pattern.DependetClasses.RealDisplay;
-import com.company.strategy_pattern.Father.Duck;
-import com.company.strategy_pattern.DependetClasses.simpleQuack;
 import com.company.strategy_pattern.Interfaces.IDisplay;
 import com.company.strategy_pattern.Interfaces.IFly;
 import com.company.strategy_pattern.Interfaces.IQuack;
 import com.company.strategy_pattern.Interfaces.Ieat;
 
-public class CityDuck extends Duck {
+public class CityDuck implements IDisplay,Ieat,IFly,IQuack {
     @Override
     public void eat() {
-        super.eat();
+        System.out.println("Yam Yam Yam...");
     }
 
     @Override
     public void display() {
-        RealDisplay realDisplay=new RealDisplay();
-        realDisplay.display();
+        System.out.println("- ____ -");
     }
 
     @Override
     public void fly() {
-        CasualFly casualFly=new CasualFly();
-        casualFly.fly();
+        System.out.println("fast");
     }
 
     @Override
     public void quack() {
-        simpleQuack simpleQuack=new simpleQuack();
-        simpleQuack.quack();
+        System.out.println("Quack quack");
     }
 }
 
