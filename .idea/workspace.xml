@@ -2,21 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fae87a08-7b58-41b0-bf70-7dbe44ee6d67" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/company/Singleton/Singleton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/decoratorpattern/decorator/Caramel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/decoratorpattern/Beverage/Caramel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/strategy_pattern/DependetClasses/CasualFly.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/strategy_pattern/DependetClasses/FakeQuack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/strategy_pattern/DependetClasses/Fakedisplay.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/strategy_pattern/DependetClasses/JetFlying.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/strategy_pattern/DependetClasses/NoFly.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/strategy_pattern/DependetClasses/Noeat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/strategy_pattern/DependetClasses/RealDisplay.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/strategy_pattern/DependetClasses/simpleQuack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/strategy_pattern/Father/Duck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/strategy_pattern/Father/Duck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/strategy_pattern/children/CityDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/strategy_pattern/children/CityDuck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/strategy_pattern/children/CloudDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/strategy_pattern/children/CloudDuck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/strategy_pattern/children/RubberDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/strategy_pattern/children/RubberDuck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/strategy_pattern/children/WildDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/strategy_pattern/children/WildDuck.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +79,8 @@
       <workItem from="1596270310006" duration="2995000" />
       <workItem from="1596462714917" duration="3864000" />
       <workItem from="1596829463051" duration="2209000" />
-      <workItem from="1597125501884" duration="2897000" />
+      <workItem from="1597125501884" duration="6404000" />
+      <workItem from="1597240168303" duration="1306000" />
     </task>
     <task id="LOCAL-00001" summary="1.strategy pattern">
       <created>1590079779278</created>
@@ -120,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596467546412</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="refactoring Strategy pattern.&#10;what i wrote before wasn't strategy :|">
+      <created>1597128554937</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1597128554937</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,49 +128,58 @@
     <MESSAGE value="2.observer pattern" />
     <MESSAGE value="3. decorator pattern" />
     <MESSAGE value="4. Factory Method Pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="4. Factory Method Pattern" />
+    <MESSAGE value="refactoring Strategy pattern.&#10;what i wrote before wasn't strategy :|" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring Strategy pattern.&#10;what i wrote before wasn't strategy :|" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="105" key="#Notifications" timestamp="1596831565554">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="361" y="105" key="#Notifications/0.30.1536.834@0.30.1536.834" timestamp="1596831565554" />
-    <state x="574" y="156" key="#com.intellij.ide.util.MemberChooser" timestamp="1597127296882">
+    <state x="574" y="156" key="#com.intellij.ide.util.MemberChooser" timestamp="1597242860167">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="574" y="156" key="#com.intellij.ide.util.MemberChooser/0.30.1536.834@0.30.1536.834" timestamp="1597127296882" />
-    <state x="390" y="40" key="CommitChangelistDialog2" timestamp="1596467542622">
+    <state x="574" y="156" key="#com.intellij.ide.util.MemberChooser/0.30.1536.834@0.30.1536.834" timestamp="1597242860167" />
+    <state x="560" y="332" width="480" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1597138220868">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="390" y="40" key="CommitChangelistDialog2/0.30.1536.834@0.30.1536.834" timestamp="1596467542622" />
-    <state width="1493" height="274" key="GridCell.Tab.0.bottom" timestamp="1597128472978">
+    <state x="560" y="332" width="480" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.30.1536.834@0.30.1536.834" timestamp="1597138220868" />
+    <state x="390" y="40" key="CommitChangelistDialog2" timestamp="1597128551450">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="274" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1597128472978" />
-    <state width="1493" height="274" key="GridCell.Tab.0.center" timestamp="1597128472978">
+    <state x="390" y="40" key="CommitChangelistDialog2/0.30.1536.834@0.30.1536.834" timestamp="1597128551450" />
+    <state width="1493" height="274" key="GridCell.Tab.0.bottom" timestamp="1597243231791">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="274" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1597128472978" />
-    <state width="1493" height="274" key="GridCell.Tab.0.left" timestamp="1597128472978">
+    <state width="1493" height="274" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1597243231791" />
+    <state width="1493" height="274" key="GridCell.Tab.0.center" timestamp="1597243231790">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="274" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1597128472978" />
-    <state width="1493" height="274" key="GridCell.Tab.0.right" timestamp="1597128472978">
+    <state width="1493" height="274" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1597243231790" />
+    <state width="1493" height="274" key="GridCell.Tab.0.left" timestamp="1597243231788">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="274" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1597128472978" />
-    <state x="361" y="180" key="Vcs.Push.Dialog.v2" timestamp="1596467604564">
+    <state width="1493" height="274" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1597243231787" />
+    <state width="1493" height="274" key="GridCell.Tab.0.right" timestamp="1597243231790">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="361" y="180" key="Vcs.Push.Dialog.v2/0.30.1536.834@0.30.1536.834" timestamp="1596467604564" />
+    <state width="1493" height="274" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1597243231790" />
+    <state x="576" y="158" key="RollbackChangesDialog" timestamp="1597138424887">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="576" y="158" key="RollbackChangesDialog/0.30.1536.834@0.30.1536.834" timestamp="1597138424887" />
+    <state x="361" y="180" key="Vcs.Push.Dialog.v2" timestamp="1597240378915">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="361" y="180" key="Vcs.Push.Dialog.v2/0.30.1536.834@0.30.1536.834" timestamp="1597240378915" />
     <state x="460" y="271" key="com.intellij.ide.util.TipDialog" timestamp="1597125502310">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="460" y="271" key="com.intellij.ide.util.TipDialog/0.30.1536.834@0.30.1536.834" timestamp="1597125502310" />
-    <state x="573" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597128484365">
+    <state x="573" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597243241734">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="573" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.30.1536.834@0.30.1536.834" timestamp="1597128484365" />
+    <state x="573" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.30.1536.834@0.30.1536.834" timestamp="1597243241734" />
     <state x="247" y="147" width="1129" height="580" key="dock-window-1" timestamp="1590074392824">
       <screen x="0" y="30" width="1536" height="834" />
     </state>

@@ -3,18 +3,16 @@ package com.company.main;
 import com.company.FactoryMethodPattern.Factory.AnimalFactory;
 import com.company.FactoryMethodPattern.Factory.BalanceAnimalFactory;
 import com.company.FactoryMethodPattern.Factory.RandomAnimalFactory;
+import com.company.Singleton.Singleton;
 import com.company.abstractFactoryPattern.ThemeFactory.DarkTheme;
 import com.company.abstractFactoryPattern.ThemeFactory.LightTheme;
 import com.company.decoratorpattern.Beverage.Beverage;
 import com.company.decoratorpattern.Beverage.Espresso;
-import com.company.decoratorpattern.decorator.Caramel;
+import com.company.decoratorpattern.Beverage.Tea;
 import com.company.ObserverPattern.observable.WeatherStation;
 import com.company.ObserverPattern.observers.PhoneDisplay;
 import com.company.strategy_pattern.Father.Duck;
 import com.company.strategy_pattern.children.CityDuck;
-import com.company.strategy_pattern.children.CloudDuck;
-import com.company.strategy_pattern.children.RubberDuck;
-import com.company.strategy_pattern.children.WildDuck;
 
 public class Main {
 
@@ -24,6 +22,15 @@ public class Main {
         //strategypattern();
         //observerPattern();
         //decoratorPattern();
+        singleton();
+    }
+
+    private static void singleton() {
+        Singleton singleton = Singleton.getInstance();
+        singleton.testString = "this is singleton" ;
+        System.out.println(singleton.testString);
+        singleton = Singleton.getInstance();
+        System.out.println(singleton.testString);
     }
 
     private static void AbstractFactoryPattern() {
@@ -50,9 +57,9 @@ public class Main {
     }
 
     private static void decoratorPattern() {
-        Espresso espresso = new Espresso();
-        Beverage beverage = new Caramel(espresso);
-        System.out.println(beverage.cost());
+        //Espresso espresso = new Espresso();
+        //Beverage beverage = new Tea(espresso);
+        //System.out.println(beverage.cost());
     }
 
     private static void observerPattern() {
