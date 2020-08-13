@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fae87a08-7b58-41b0-bf70-7dbe44ee6d67" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/Singleton/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/CommandPattern/Commands/ICommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/CommandPattern/Commands/LightDownCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/CommandPattern/Commands/LightOffCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/CommandPattern/Commands/LightOnCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/CommandPattern/Commands/LightUpCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/CommandPattern/Invoker/LightInvoker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/CommandPattern/Receiver/Light.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/decoratorpattern/decorator/Caramel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/decoratorpattern/Beverage/Caramel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +85,8 @@
       <workItem from="1596462714917" duration="3864000" />
       <workItem from="1596829463051" duration="2209000" />
       <workItem from="1597125501884" duration="6404000" />
-      <workItem from="1597240168303" duration="1306000" />
+      <workItem from="1597240168303" duration="1863000" />
+      <workItem from="1597342742604" duration="1431000" />
     </task>
     <task id="LOCAL-00001" summary="1.strategy pattern">
       <created>1590079779278</created>
@@ -117,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597128554937</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="5. Singleton pattern">
+      <created>1597243282729</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1597243282729</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,57 +142,62 @@
     <MESSAGE value="3. decorator pattern" />
     <MESSAGE value="4. Factory Method Pattern" />
     <MESSAGE value="refactoring Strategy pattern.&#10;what i wrote before wasn't strategy :|" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactoring Strategy pattern.&#10;what i wrote before wasn't strategy :|" />
+    <MESSAGE value="5. Singleton pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="5. Singleton pattern" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="105" key="#Notifications" timestamp="1596831565554">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="361" y="105" key="#Notifications/0.30.1536.834@0.30.1536.834" timestamp="1596831565554" />
-    <state x="574" y="156" key="#com.intellij.ide.util.MemberChooser" timestamp="1597242860167">
+    <state x="574" y="156" key="#com.intellij.ide.util.MemberChooser" timestamp="1597343675654">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="574" y="156" key="#com.intellij.ide.util.MemberChooser/0.30.1536.834@0.30.1536.834" timestamp="1597242860167" />
+    <state x="574" y="156" key="#com.intellij.ide.util.MemberChooser/0.30.1536.834@0.30.1536.834" timestamp="1597343675654" />
     <state x="560" y="332" width="480" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1597138220868">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="560" y="332" width="480" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.30.1536.834@0.30.1536.834" timestamp="1597138220868" />
-    <state x="390" y="40" key="CommitChangelistDialog2" timestamp="1597128551450">
+    <state x="499" y="194" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1597343114336">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="390" y="40" key="CommitChangelistDialog2/0.30.1536.834@0.30.1536.834" timestamp="1597128551450" />
-    <state width="1493" height="274" key="GridCell.Tab.0.bottom" timestamp="1597243231791">
+    <state x="499" y="194" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.30.1536.834@0.30.1536.834" timestamp="1597343114336" />
+    <state x="390" y="30" width="756" height="834" key="CommitChangelistDialog2" timestamp="1597243278385">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="274" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1597243231791" />
-    <state width="1493" height="274" key="GridCell.Tab.0.center" timestamp="1597243231790">
+    <state x="390" y="30" width="756" height="834" key="CommitChangelistDialog2/0.30.1536.834@0.30.1536.834" timestamp="1597243278385" />
+    <state width="1493" height="274" key="GridCell.Tab.0.bottom" timestamp="1597344219312">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="274" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1597243231790" />
-    <state width="1493" height="274" key="GridCell.Tab.0.left" timestamp="1597243231788">
+    <state width="1493" height="274" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1597344219312" />
+    <state width="1493" height="274" key="GridCell.Tab.0.center" timestamp="1597344219311">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="274" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1597243231787" />
-    <state width="1493" height="274" key="GridCell.Tab.0.right" timestamp="1597243231790">
+    <state width="1493" height="274" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1597344219311" />
+    <state width="1493" height="274" key="GridCell.Tab.0.left" timestamp="1597344219310">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="274" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1597243231790" />
+    <state width="1493" height="274" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1597344219310" />
+    <state width="1493" height="274" key="GridCell.Tab.0.right" timestamp="1597344219311">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state width="1493" height="274" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1597344219311" />
     <state x="576" y="158" key="RollbackChangesDialog" timestamp="1597138424887">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="576" y="158" key="RollbackChangesDialog/0.30.1536.834@0.30.1536.834" timestamp="1597138424887" />
-    <state x="361" y="180" key="Vcs.Push.Dialog.v2" timestamp="1597240378915">
+    <state x="361" y="180" key="Vcs.Push.Dialog.v2" timestamp="1597243290056">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="361" y="180" key="Vcs.Push.Dialog.v2/0.30.1536.834@0.30.1536.834" timestamp="1597240378915" />
-    <state x="460" y="271" key="com.intellij.ide.util.TipDialog" timestamp="1597125502310">
+    <state x="361" y="180" key="Vcs.Push.Dialog.v2/0.30.1536.834@0.30.1536.834" timestamp="1597243290056" />
+    <state x="460" y="271" key="com.intellij.ide.util.TipDialog" timestamp="1597342742570">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="460" y="271" key="com.intellij.ide.util.TipDialog/0.30.1536.834@0.30.1536.834" timestamp="1597125502310" />
-    <state x="573" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597243241734">
+    <state x="460" y="271" key="com.intellij.ide.util.TipDialog/0.30.1536.834@0.30.1536.834" timestamp="1597342742570" />
+    <state x="573" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597344265659">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="573" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.30.1536.834@0.30.1536.834" timestamp="1597243241734" />
+    <state x="573" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.30.1536.834@0.30.1536.834" timestamp="1597344265659" />
     <state x="247" y="147" width="1129" height="580" key="dock-window-1" timestamp="1590074392824">
       <screen x="0" y="30" width="1536" height="834" />
     </state>

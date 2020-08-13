@@ -1,5 +1,11 @@
 package com.company.main;
 
+import com.company.CommandPattern.Commands.LightDownCommand;
+import com.company.CommandPattern.Commands.LightOffCommand;
+import com.company.CommandPattern.Commands.LightOnCommand;
+import com.company.CommandPattern.Commands.LightUpCommand;
+import com.company.CommandPattern.Invoker.LightInvoker;
+import com.company.CommandPattern.Receiver.Light;
 import com.company.FactoryMethodPattern.Factory.AnimalFactory;
 import com.company.FactoryMethodPattern.Factory.BalanceAnimalFactory;
 import com.company.FactoryMethodPattern.Factory.RandomAnimalFactory;
@@ -22,23 +28,35 @@ public class Main {
         //strategypattern();
         //observerPattern();
         //decoratorPattern();
-        singleton();
+        //singleton();
+        CommandPattern();
+    }
+
+    private static void CommandPattern() {
+        Light light = new Light();
+        LightInvoker lightInvoker = new LightInvoker(
+                new LightOnCommand(light),
+                new LightOffCommand(light),
+                new LightUpCommand(light),
+                new LightDownCommand(light));
+        lightInvoker.OnClick();
+        lightInvoker.UpClick();
     }
 
     private static void singleton() {
         Singleton singleton = Singleton.getInstance();
-        singleton.testString = "this is singleton" ;
+        singleton.testString = "this is singleton";
         System.out.println(singleton.testString);
         singleton = Singleton.getInstance();
         System.out.println(singleton.testString);
     }
 
     private static void AbstractFactoryPattern() {
-        DarkTheme darkTheme=new DarkTheme();
+        DarkTheme darkTheme = new DarkTheme();
         System.out.println("DARK:");
         System.out.println(darkTheme.TEXT_COLOR().getColor());
         System.out.println(darkTheme.BACKGROUND_COLOR().getColor());
-        LightTheme lightTheme=new LightTheme();
+        LightTheme lightTheme = new LightTheme();
         System.out.println("LIGHT:");
         System.out.println(lightTheme.BACKGROUND_COLOR().getColor());
         System.out.println(lightTheme.TEXT_COLOR().getColor());
@@ -48,7 +66,7 @@ public class Main {
         RandomAnimalFactory randomAnimalFactory = new RandomAnimalFactory();
         BalanceAnimalFactory balanceAnimalFactory = new BalanceAnimalFactory();
         AnimalFactory animalFactory;
-        for (int i=0;i<10;++i){
+        for (int i = 0; i < 10; ++i) {
             animalFactory = randomAnimalFactory;
             System.out.println(animalFactory.CreateAnimal().GetSound());
             animalFactory = balanceAnimalFactory;
@@ -78,7 +96,7 @@ public class Main {
 
     public static void strategypattern() {
         CityDuck cityDuck = new CityDuck();
-        Duck duck = new Duck(cityDuck,cityDuck,cityDuck,cityDuck);
+        Duck duck = new Duck(cityDuck, cityDuck, cityDuck, cityDuck);
         duck.fly();
     }
 }
