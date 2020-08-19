@@ -14,4 +14,7 @@ this class is force to have just one Instance of its own class.
 reach with make the constructor private and a public method (e.g: getInstance) that return the same Instance of that class if we made it before,
 if the Instance was null we store the new Instance in a private and static Singlton Object.
 
-
+# 6: Command Pattern : 
+we want to encapsulate a command from the sender(Invoker) and a Receiver.
+with this scenario, we can send a bunch of commands to their receivers.
+with command pattern, we can implement do and undo for commands.
