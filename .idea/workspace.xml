@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fae87a08-7b58-41b0-bf70-7dbe44ee6d67" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/adapter/RoundHole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/adapter/RoundPeg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/adapter/SquarePeg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/adapter/SquarePegAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/proxy/ExpensiveObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/proxy/ExpensiveObjectImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/proxy/ExpensiveObjectProxy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/main/Main.java" afterDir="false" />
     </list>
@@ -18,9 +16,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Class" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -132,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597243282729</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="6. Adapter pattern">
+      <created>1614664347352</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1614664347352</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,6 +150,7 @@
     <MESSAGE value="4. Factory Method Pattern" />
     <MESSAGE value="refactoring Strategy pattern.&#10;what i wrote before wasn't strategy :|" />
     <MESSAGE value="5. Singleton pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="5. Singleton pattern" />
+    <MESSAGE value="6. Adapter pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="6. Adapter pattern" />
   </component>
 </project>

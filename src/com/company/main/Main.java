@@ -18,6 +18,8 @@ import com.company.adapter.SquarePeg;
 import com.company.adapter.SquarePegAdapter;
 import com.company.ObserverPattern.observable.WeatherStation;
 import com.company.ObserverPattern.observers.PhoneDisplay;
+import com.company.proxy.ExpensiveObject;
+import com.company.proxy.ExpensiveObjectProxy;
 import com.company.strategy_pattern.Father.Duck;
 import com.company.strategy_pattern.children.CityDuck;
 
@@ -31,7 +33,14 @@ public class Main {
         //decoratorPattern();
         //singleton();
         //CommandPattern();
-        AdapterPattern();
+        //AdapterPattern();
+        ProxyPattern();
+    }
+
+    private static void ProxyPattern() {
+        ExpensiveObject object = new ExpensiveObjectProxy();
+        object.process();
+        object.process();
     }
 
     private static void AdapterPattern() {
