@@ -18,10 +18,13 @@ import com.company.adapter.SquarePeg;
 import com.company.adapter.SquarePegAdapter;
 import com.company.ObserverPattern.observable.WeatherStation;
 import com.company.ObserverPattern.observers.PhoneDisplay;
+import com.company.facade.facade.VideoConversionFacade;
 import com.company.proxy.ExpensiveObject;
 import com.company.proxy.ExpensiveObjectProxy;
 import com.company.strategy_pattern.Father.Duck;
 import com.company.strategy_pattern.children.CityDuck;
+
+import java.io.File;
 
 public class Main {
 
@@ -34,7 +37,13 @@ public class Main {
         //singleton();
         //CommandPattern();
         //AdapterPattern();
-        ProxyPattern();
+        //ProxyPattern();
+        //FacadePattern();
+    }
+
+    private static void FacadePattern() {
+        VideoConversionFacade converter = new VideoConversionFacade();
+        File mp4Video = converter.convertVideo("youtubevideo.ogg", "mp4");
     }
 
     private static void ProxyPattern() {
