@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fae87a08-7b58-41b0-bf70-7dbe44ee6d67" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/facade/complexlib/AudioMixer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/facade/complexlib/BitrateReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/facade/complexlib/Codec.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/facade/complexlib/CodecFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/facade/complexlib/MPEG4CompressionCodec.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/facade/complexlib/OggCompressionCodec.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/facade/complexlib/VideoFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/facade/facade/VideoConversionFacade.java" afterDir="false" />
+    <list default="true" id="fae87a08-7b58-41b0-bf70-7dbe44ee6d67" name="Default Changelist" comment="8. Facade pattern">
+      <change afterPath="$PROJECT_DIR$/src/com/company/strategy/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/strategy/behavior/IEat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/strategy/behavior/IMove.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/strategy/behavior/ISpeak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/strategy/behavior/client/IClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/strategy/behavior/client/Snail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/strategy/behavior/client/hours.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/strategy/behavior/imp/Fly.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/strategy/behavior/imp/NoSpeak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/strategy/behavior/imp/Roar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/strategy/behavior/imp/Run.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/strategy/behavior/imp/Swim.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/strategy/behavior/imp/vegeterian.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/design pattern/com/company/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/design pattern/com/company/main/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/main/Main.java" afterDir="false" />
@@ -23,14 +28,14 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="MERGE" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1cBHOIarTNCSloMpUVDV2FaGlhC" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -150,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614665189750</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="8. Facade pattern">
+      <created>1614666717311</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1614666717311</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,6 +177,7 @@
     <MESSAGE value="5. Singleton pattern" />
     <MESSAGE value="6. Adapter pattern" />
     <MESSAGE value="7. Proxy pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="7. Proxy pattern" />
+    <MESSAGE value="8. Facade pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="8. Facade pattern" />
   </component>
 </project>

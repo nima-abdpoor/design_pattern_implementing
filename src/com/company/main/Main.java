@@ -21,10 +21,22 @@ import com.company.ObserverPattern.observers.PhoneDisplay;
 import com.company.facade.facade.VideoConversionFacade;
 import com.company.proxy.ExpensiveObject;
 import com.company.proxy.ExpensiveObjectProxy;
+import com.company.strategy.behavior.IEat;
+import com.company.strategy.behavior.IMove;
+import com.company.strategy.behavior.ISpeak;
+import com.company.strategy.behavior.client.IClient;
+import com.company.strategy.behavior.client.Snail;
+import com.company.strategy.behavior.client.hours;
+import com.company.strategy.behavior.imp.Fly;
+import com.company.strategy.behavior.imp.Roar;
+import com.company.strategy.behavior.imp.Run;
+import com.company.strategy.behavior.imp.vegeterian;
 import com.company.strategy_pattern.Father.Duck;
 import com.company.strategy_pattern.children.CityDuck;
 
 import java.io.File;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Main {
 
@@ -32,6 +44,7 @@ public class Main {
         //abstractFactoryPattern();
         //FactoryMethodPattern();
         //strategyPattern();
+        strategyPattern2();
         //observerPattern();
         //decoratorPattern();
         //singleton();
@@ -39,6 +52,22 @@ public class Main {
         //AdapterPattern();
         //ProxyPattern();
         //FacadePattern();
+    }
+
+    private static void strategyPattern2() {
+        ISpeak speak = new Roar();
+        IEat eat = new vegeterian();
+        IMove move = new Run();
+        IMove move1 = new Fly();
+        hours hours = new hours(eat,speak,move);
+        Snail snail = new Snail(eat,move1);
+        List<IClient> clientList = new ArrayList<>();
+        clientList.add(hours);
+        clientList.add(snail);
+        for (IClient c:clientList
+             ) {
+           c.show();
+        }
     }
 
     private static void FacadePattern() {
